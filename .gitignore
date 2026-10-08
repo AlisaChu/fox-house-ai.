@@ -1,0 +1,35 @@
+
+# Секреты и доступы
+.env
+.env.*
+!.env.example
+credentials.json
+token*.json
+*credentials*.json
+*secret*.json
+
+# Установленные библиотеки
+node_modules/
+
+# База недвижимости и коммерческие данные
+all-apartments*.json
+price-overrides.json
+
+# Резервные копии
+*backup*
+*before-excel*
+
+# Логи и временные отчёты
+*.log
+*log*.txt
+*report*.txt
+error-details.txt
+check-import.txt
+
+# Временные файлы
+*.tmp
+*.bak
+
+# Системные файлы
+.DS_Store
+Thumbs.db
